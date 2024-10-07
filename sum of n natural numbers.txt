@@ -1,0 +1,11 @@
+3 5
+number:10 sum:0
+3 start
+count:0 zero:0
+one:1 num1:0
+stop:9
+start:7 number num1 
+4 num1 zero stop
+1 sum num1 sum
+2 num1 one num1
+3 15
