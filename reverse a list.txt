@@ -1,0 +1,43 @@
+3 5
+start_address:n1 length:8
+3 start
+one:1
+stop:9
+equal:0
+end_value:0
+start_value:0
+start:7 start_address address1
+7 start_address start_address1
+1 start_address length end_address
+2 end_address one end_address
+7 end_address address2
+5 address2 start_address stop
+7 address2:0 end_value
+7 address1:0 start_value
+7 end_value start_address1:0
+7 start_value end_address:0
+1 start_address1 one start_address1
+2 end_address one end_address
+1 address1 one address1
+2 address2 one address2
+4 start_address1 end_address stop
+2 start_address1 one equal
+4 equal end_address stop
+3 29
+n1:6 68 2 4 6 3 4 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
