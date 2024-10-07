@@ -1,0 +1,45 @@
+3 5
+strt_add:n1 length:7
+3 start
+one:1
+stop:9
+first:0
+temp:0
+end:0
+temp1:0
+
+
+start:1 strt_add length end_add
+2 end_add one end_add
+7 end_add last
+7 end_add end
+
+
+
+main:5 last strt_add stop
+7 strt_add big
+7 big big_place
+7 strt_add first
+1 first one second
+
+Out:4 first last stop1
+
+In:5 big:0 second:0 Notin
+
+Inc:1 first one first
+1 second one second 
+3 Out
+
+Notin:7 second big
+7 second big_place
+3 Inc
+
+stop1:7 big large
+7 large:0 big
+7 last:0 temp
+7 big end_add:0
+2 last one last
+7 last end_add
+7 temp big_place:0
+3 main
+n1:2 5 4 1 6 7 2 9
