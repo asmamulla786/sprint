@@ -1,0 +1,20 @@
+3 7
+n1_address:e1 length:2
+target:5 result:0
+3 start
+count:0
+one:1
+zero:0
+stop:9
+start:7 n1_address address
+4 count length stop
+4 target address:0 34
+1 address one address
+1 count one count
+3 16
+7 one result
+3 stop
+e1:12 5
+
+
+ 
