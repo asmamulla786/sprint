@@ -1,0 +1,34 @@
+3 5
+number:5 fact:1
+3 start
+zero:0
+count:0
+one:1
+duplicate:0
+two:2
+prev:0
+num1:0
+start:7 number duplicate
+7 number num1
+2 fact one fact
+check:5 duplicate two 61
+2 duplicate one prev
+check2:4 count prev 46
+1 fact number fact
+1 count one count
+3 check2
+7 fact number
+7 zero count
+7 zero fact
+2 duplicate one duplicate
+3 check
+4 number zero 72
+7 number fact
+7 num1 number
+9
+7 one fact
+3 71
+
+
+
+
