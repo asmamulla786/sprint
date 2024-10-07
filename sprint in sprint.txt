@@ -1,0 +1,139 @@
+3 start
+first_add:n1
+one:1
+two:2
+three:3
+four:4
+five:5
+nine:9 
+stop:9
+seven:7
+instruction:0
+next_value:0
+source_value:0
+left_add:0
+right_add:0
+small_add:0
+large_add:0
+right1_value:0
+destination_value:0
+yes_value:0
+start:7 first_add start_add
+
+
+check_next:7 start_add:0 instruction
+1 start_add one next
+4 instruction nine stop
+4 instruction three jump
+4 instruction seven copy
+4 instruction one addition
+4 instruction two subtraction
+4 instruction four equality
+4 instruction five lessthan
+
+jump:7 next:0 next_value
+2 next_value one next_value
+1 next_value first_add start_add
+3 check_next
+
+copy:7 next source
+1 next one destination_place
+7 destination_place:0 destination
+7 source:0 source_place
+1 first_add source_place source_place
+2 source_place one source_place
+7 source_place:0 source_value
+1 first_add destination destination
+2 destination one destination
+7 source_value destination:0 
+1 source one start_add
+1 start_add one start_add
+3 check_next
+
+
+addition:7 next number1
+1 number1 one number2
+1 number2 one sum
+7 number1:0 number1_value
+1 first_add number1_value number1_value
+2 number1_value one number1_value
+7 number2:0 number2_value
+1 first_add number2_value number2_value
+2 number2_value one number2_value
+7 sum:0 sum_value
+1 first_add sum_value sum_value
+2 sum_value one sum_value
+1 number1_value:0 number2_value:0 sum_value:0
+1 sum one start_add
+3 check_next
+
+
+subtraction:7 next Minuend
+1 Minuend one Subtrahend
+1 Subtrahend one difference
+7 Minuend:0 Minuend_value
+1 first_add Minuend_value Minuend_value
+2 Minuend_value one Minuend_value
+7 Subtrahend:0 Subtrahend_value
+1 first_add Subtrahend_value Subtrahend_value
+2 Subtrahend_value one Subtrahend_value
+7 difference:0 difference_value
+1 first_add difference_value difference_value
+2 difference_value one difference_value
+2 Minuend_value:0 Subtrahend_value:0 difference_value:0
+1 difference one start_add
+3 check_next
+
+
+equality:7 next left
+1 left one right
+1 right one yes
+7 left:0 left_add
+1 first_add left_add left_value
+2 left_value one left_value
+7 right:0 right_add
+1 first_add right_add right_value
+2 right_value one right_value
+7 yes:0 yes_value
+1 first_add yes_value yes_value
+2 yes_value one yes_value
+4 left_value:0 right_value:0 true
+1 yes one start_add
+3 check_next
+true:7 yes_value start_add
+3 check_next
+
+lessthan:7 next small
+1 small one large
+1 large one right1
+7 small:0 small_add
+1 first_add small_add small_value
+2 small_value one small_value
+7 large:0 large_add
+1 first_add large_add large_value
+2 large_value one large_value
+7 right1:0 right1_value
+1 first_add right1_value right1_value
+2 right1_value one right1_value
+5 small_value:0 large_value:0 correct
+1 right1 one start_add
+3 check_next
+correct:7 right1_value start_add
+3 check_next
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+n1:3 5 2 4 5 4 3 10 9 7 3 15 3 9 0
+
+
