@@ -1,0 +1,26 @@
+3 5
+number:4 sqroot:0
+3 12
+num1:0
+count:0
+one:1
+zero:0
+stop:9
+4 number zero stop
+7 number num1
+7 one sqroot
+2 number sqroot number
+1 count one count
+4 count sqroot 36
+3 22
+5 number sqroot 56
+4 number sqroot 60
+7 zero count
+1 sqroot one sqroot
+7 num1 number
+3 22
+5 number zero 65
+7 num1 number
+3 stop
+2 sqroot one sqroot
+3 60
